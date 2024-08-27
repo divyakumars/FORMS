@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WITHDRAW FORM</title>
+    <style>
+        body {
+            background-color: #344a72;
+            padding: 10px;
+        }
+
+        .with {
+            width: 360px;
+            height: 860px;
+            margin: auto;
+            background-color: white;
+
+
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        form {
+            margin: 20px;
+        
+        }
+
+        form label {
+            display: flex;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        form input {
+            width: 80%;
+            padding: 7px;
+            border-width: 3px;
+            border-radius: 5px;
+
+
+        }
+
+        input[type="button"] {
+            width: 100%;
+            margin-top: 30px;
+            height: 55px;
+            cursor: pointer;
+            background-color: #49c1a2;
+            color: white;
+            font-size: 20px;
+            transition: 0.3s ease;
+        }
+
+        input[type="button"]:hover {
+            font-size: 30px;
+            background-color: black;
+        }
+
+        select {
+            width: 87%;
+            
+
+        }
+        #dr{
+            padding: 20px;
+            width: 70%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="with">
+        <h1>STUDENT WITHDRAW FORM</h1>
+        <form action="">
+            <label>Student name</label>
+            <input type="text" placeholder="Eg:Divya">
+            <label>Register number</label>
+            <input type="number"  placeholder="Eg:212222230035">
+            <label>Department</label>
+            <select placeholder="choose">Department
+                <option>choose</option>
+                <option value="">AIDS</option>
+                <option value="">AIML</option>
+                <option value="">CSE</option>
+                <option value="">IT</option>
+                <option value="">CSE(cyber)</option>
+                <option value="">BME</option>
+                <option value="">IOT</option>
+            </select>
+            <label>Year</label>
+            <select placeholder="choose">Year
+                <option value="">choose</option>
+                <option value="">I</option>
+                <option value="">II</option>
+                <option value="">III</option>
+                <option value="">IV</option>
+            </select>
+            <label>Credits Enrolled</label>
+            <input type="number" placeholder="Eg:26">
+            <label>Reason for Withdraw</label>
+            <input type="text" name="" id="dr">
+            <label>Course Code(to withdraw)</label>
+            <input type="text" placeholder="Eg:19AI506">
+            <label>Course Code(to Enroll)</label>
+            <input type="text" placeholder="Eg:19AI407">
+            <input type="button" value="Submit" >
+
+        </form>
+    </div>
+    
+</body>
+</html>

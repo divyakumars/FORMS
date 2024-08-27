@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID FORM</title>
+    <style>
+        body {
+            background-color: #344a72;
+            padding: 30px;
+        }
+
+        .id {
+            width: 360px;
+            height: 870px;
+            margin: auto;
+            background-color: white;
+
+
+
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        form {
+            margin: 20px;
+        }
+
+        form label {
+            display: flex;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        form input {
+            width: 80%;
+            padding: 7px;
+            border-width: 3px;
+            border-radius: 5px;
+
+
+        }
+
+        input[type="button"] {
+            width: 290px;
+            margin-top: 30px;
+
+            height: 55px;
+
+
+            cursor: pointer;
+            background-color: #49c1a2;
+            color: white;
+            font-size: 20px;
+            transition: 0.3s ease;
+        }
+
+        input[type="button"]:hover {
+            font-size: 30px;
+            background-color: black;
+        }
+
+        select {
+            width: 87%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="id">
+        <h1>ID CARD FORM</h1>
+        <form>
+            <label>First Name</label>
+            <input type="text" placeholder="first Name" id="">
+            <label for="">Last Name</label>
+            <input type="text" placeholder="last Name" id="">
+            <label for="">Department</label>
+            <select placeholder="choose">Department
+                <option>choose</option>
+                <option value="">AIDS</option>
+                <option value="">AIML</option>
+                <option value="">CSE</option>
+                <option value="">IT</option>
+                <option value="">CSE(cyber)</option>
+                <option value="">BME</option>
+                <option value="">IOT</option>
+            </select>
+
+            <label>Year</label>
+            <select placeholder="choose">Year
+                <option value="">choose</option>
+                <option value="">I</option>
+                <option value="">II</option>
+                <option value="">III</option>
+                <option value="">IV</option>
+            </select>
+            <label for="">DOB</label>
+            <input type="date" name="" id="">
+            <label for="">Father name</label>
+            <input type="text" placeholder="Father's name">
+            <label for="">Contact number</label>
+            <input type="number">
+            <label for="">Address</label>
+            <input type="text" name="address" id="">
+            <label for="">Blood Group</label>
+            <input type="text" name="" id="" placeholder="">
+            <input type="file" name="" id="Photo" name="Photo">
+            <input type="button" value="submit">
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OD FORM</title>
+    <style>
+        body {
+            background-color: #344a72;
+            padding: 10px;
+        }
+
+        .od {
+            width: 360px;
+            height: 640px;
+            margin: auto;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        form {
+            margin: 30px;
+
+        }
+
+        form label {
+            display: flex;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        form input {
+            width: 80%;
+            padding: 7px;
+            border-width: 3px;
+            border-radius: 5px;
+        }
+
+        input[type="button"] {
+            width: 290px;
+            margin-top: 30px;
+            height: 55px;
+            cursor: pointer;
+            background-color: #49c1a2;
+            color: white;
+            font-size: 20px;
+            transition: 0.3s ease;
+        }
+
+        input[type="button"]:hover {
+            font-size: 30px;
+            background-color: black;
+        }
+
+        select {
+            width: 87%;
+
+        }
+
+        #rsn {
+            box-sizing: border-box;
+            padding: 25px;
+            width: 87%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="od">
+        <h1>OD FORM</h1>
+        <form action="">
+            <label for="">Student Name</label>
+            <input type="text" placeholder="Eg:div" name="" id="">
+            <label for="">Department</label>
+            <select placeholder="choose">Department
+                <option>choose</option>
+                <option value="">AIDS</option>
+                <option value="">AIML</option>
+                <option value="">CSE</option>
+                <option value="">IT</option>
+                <option value="">CSE(cyber)</option>
+                <option value="">BME</option>
+                <option value="">IOT</option>
+            </select>
+
+            <label>Year</label>
+            <select aria-placeholder="choose">Year
+                <option value="">choose</option>
+                <option value="">I</option>
+                <option value="">II</option>
+                <option value="">III</option>
+                <option value="">IV</option>
+            </select>
+            <label for="">Start Date</label>
+            <input type="date" name="" id="">
+            <label for="">Time</label>
+            <input type="time" name="" id="">
+            <label for="">Reason for Od</label>
+            <input type="text" name="" id="rsn" row="4">
+            <input type="button" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

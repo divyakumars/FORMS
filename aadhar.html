@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AADHAR FORM</title>
+    <style>
+        body {
+            background-color: #344a72;
+            padding-top: 50px;
+        }
+
+        .aadhar {
+            width: 360px;
+            height: 800px;
+            margin: auto;
+            background-color: white;
+            border-radius: 3px;
+            
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        form {
+            margin-left: 20px;
+
+        }
+
+        form label {
+            display: flex;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        form input {
+            width: 80%;
+            padding: 7px;
+            margin-top: 3px;
+            border-width: 3px;
+            border-radius: 5px;
+            color: black;
+
+
+        }
+
+        input[type="button"] {
+            width: 290px;
+            margin-top: 30px;
+
+            height: 55px;
+            cursor: pointer;
+            background-color: #49c1a2;
+            color: white;
+            font-size: 20px;
+            transition: 0.3s ease;
+        }
+
+        input[type="button"]:hover {
+            font-size: 30px;
+            background-color: black;
+        }
+
+        select {
+            width: 87%;
+            height: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="aadhar">
+        <h1>AADHAR FORM</h1>
+        <form action="">
+            <label for="">Name</label>
+            <input type="text">
+            <label for="">Date of Birth</label>
+            <input type="date" name="" id="">
+            <label for="">Gender</label>
+            <select name="" id="" placeholder="Select Gender">
+                <option value="">Choose</option>
+                <option value="">Female</option>
+                <option value="">Male</option>
+                <option value="">Others</option>
+
+
+            </select>
+            <label for="">Email</label>
+            <input type="email" name="" id="">
+            <label for="">Residential address</label>
+            <input type="text" name="" id="">
+            <label for="">Pincode</label>
+            <input type="number">
+            <label for="">Aadhar number</label>
+            <input type="number">
+            <label for="">Upload Photo</label>
+            <input type="file" name="" id="Photo" name="Photo">
+            <input type="button" value="Submit" id="">
+        </form>
+    </div>
+
+</body>
+
+</html>
